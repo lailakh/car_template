@@ -1,6 +1,108 @@
 
 /*******header*******/
 
+.header{
+ background-image: url('../img/carbg.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/**************8description ************/
+.description{
+    position: absolute;
+    top: 25%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#94110d ;
+ line-height: 2;
+
+}
+.description p{
+ color:#fff;
+ font-size: 20px;
+ width: 70%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #94110d;
+ background:#94110d;
+ color:#fff;
+} 
+
+.description button:hover {
+	border:1px  solid #fff;
+ background:#fff;
+ color:#94110d;
+
+}
+
+/****************navbar ********/
+
+.navbar{ background:#94110d;}
+
+.nav-link , .navbar-brand{ color: #fff; cursor: pointer; font-weight: bold}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #fff; color: #94110d; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#94110d !important;}
+
+/************responsive header*********/
+
+ @media (max-width: 576px) {
+	.description h1{
+		 color:#94110d ;
+		 line-height: 2;
+		 font-size: 20px;
+
+          }
+		.description p{
+				 color:#fff;
+				font-size: 15px;
+				 width: 100%;
+				 line-height: 1.5;
+		}
+
+ }
+
+
+@media (max-width: 766px) and (min-width:576px) {
+	.description h1{
+ color:#94110d ;
+ line-height: 2;
+ font-size: 25px;
+
+}
+.description p{
+ color:#fff;
+ font-size: 15px;
+ width: 100%;
+ line-height: 1.5;
+}
+
+ }
+
+
+
+
+
 
 
 /********add font***************/
