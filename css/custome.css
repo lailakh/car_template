@@ -154,14 +154,43 @@ margin-bottom: 1.5em;
 }
  }
 
+/********our car******************/
+
+.ourcar{
+ margin: 2em 0;
+ position: relative; 
+}
+.ourcar h1{
+ color:#94110d;
+ margin: 1em; 
+ padding-top: 3em;
+
+}
+.ourcar .card{
+ box-shadow: 0 0 20px #ccc;
+}
+.ourcar .card img{
+ width: 100%;
+ height: 12em;
+}
+.ourcar .card-title{
+ color:#94110d;
+  
+}
+.ourcar .card-body{
+ padding: 1em;
+}
+
+
+
 /************protofolio****************/
 #portfolio{
- margin: 8em 0  3em;
+ margin: 4em 0  2em;
     position: relative; 
 }
 #portfolio h1{
  color:#94110d;
- padding-top: 2em;
+ padding-top: 3em;
 
 }
 #portfolio img{
@@ -189,12 +218,13 @@ margin-bottom: 1.5em;
 
 /************customer********/
 .customer{
- margin: 20em 0;
+ margin: 2em 0;
  position: relative;  
 }
 .customer h1{
  color:#94110d;
- margin: 20em 2em 2em 2em  ; 
+ margin:  2em  ; 
+padding-top: 4em;
 }
 
 .customer img {
@@ -230,23 +260,24 @@ margin-bottom: 1.5em;
 /********add font***************/
 
 /************contact us**********/
-.contact-form{
- margin: 6em 0;
- position: relative;  
+.contact{
+ margin:2em 0;
+ position: relative; 
+ padding-top:7em; 
 }
-.contact-form h1{
- padding:2em 1px;
+.contact h1{
+ padding:3em 1px;
  color: #94110d; 
 }
-.contact-form .right{
+.contact .right{
  max-width: 600px;
 }
-.contact-form .right .btn-secondary{
+.contact .right .btn-secondary{
  background:  #94110d;
  color: #fff;
  border:0;
 }
-.contact-form .right .form-control::placeholder{
+.contact .right .form-control::placeholder{
  color: #888;
  font-size: 16px;
 }
