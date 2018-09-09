@@ -66,6 +66,8 @@
 
 /************responsive header*********/
 
+
+
  @media (max-width: 576px) {
 	.description h1{
 		 color:#94110d ;
@@ -152,10 +154,36 @@ margin-bottom: 1.5em;
 }
  }
 
-/****************************/
+/************protofolio****************/
+#portfolio{
+ margin: 4em 0  3em;
+    position: relative; 
+}
+#portfolio h1{
+ color:#94110d;
 
+}
+#portfolio img{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+}
 
+.portfolio {
+	position: relative;
+}
+.portfolio .overlay{
+	opacity: 0;
+}
 
+.portfolio:hover .overlay {
+  opacity: 1;
+}
+
+ @media (max-width: 638px) {
+#portfolio img {
+  margin: 1em 0em;
+}
 
 /********add font***************/
 @font-face {
