@@ -184,6 +184,47 @@ margin-bottom: 1.5em;
 #portfolio img {
   margin: 1em 0em;
 }
+}
+
+/************customer********/
+.customer{
+ margin: 4em 0;
+ position: relative;  
+}
+.customer h1{
+ color:#94110d;
+ margin: 2em; 
+}
+
+.customer img {
+	height: 250px;
+}
+.customer .item{
+ position: relative;
+}
+.customer .des{
+ background: #94110d;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ transition:.3s ease-in-out;
+}
+
+.customer .item:hover .des{
+ height: 100%;
+ background:#f973007d;
+ position: absolute;
+ width: 89%;
+ padding: 5em;
+ top: 0;
+ border-bottom-left-radius: 0;
+}
+
+@media (max-width: 490px) {
+.customer h1 {
+  margin: 1em 0em;
+}
+}
 
 /********add font***************/
 @font-face {
