@@ -156,11 +156,12 @@ margin-bottom: 1.5em;
 
 /************protofolio****************/
 #portfolio{
- margin: 4em 0  3em;
+ margin: 8em 0  3em;
     position: relative; 
 }
 #portfolio h1{
  color:#94110d;
+ padding-top: 2em;
 
 }
 #portfolio img{
@@ -169,14 +170,14 @@ margin-bottom: 1.5em;
   margin: 1em;
 }
 
-.portfolio {
+.portfolio_t {
 	position: relative;
 }
-.portfolio .overlay{
+.portfolio_t .overlay{
 	opacity: 0;
 }
 
-.portfolio:hover .overlay {
+.portfolio_t:hover .overlay {
   opacity: 1;
 }
 
@@ -188,12 +189,12 @@ margin-bottom: 1.5em;
 
 /************customer********/
 .customer{
- margin: 4em 0;
+ margin: 20em 0;
  position: relative;  
 }
 .customer h1{
  color:#94110d;
- margin: 2em; 
+ margin: 20em 2em 2em 2em  ; 
 }
 
 .customer img {
@@ -227,6 +228,54 @@ margin-bottom: 1.5em;
 }
 
 /********add font***************/
+
+/************contact us**********/
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #94110d; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #94110d;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
+/********************/
+
+/*******footer *****/
+
+#footer {
+    background: #1f2a32;
+
+}
+
+ul 
+    {
+    padding-left: 0px;
+
+}
+
+ul li {
+    padding-bottom: 20px;
+}
+
+
+.text_red {
+	color:#94110d;
+}
+
+
+
 @font-face {
     font-family: Oswald;
     src: url(../fonts/Oswald-Regular.ttf);
