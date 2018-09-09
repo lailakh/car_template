@@ -58,7 +58,7 @@
 
 .nav-link{ margin-right: 1em !important;}
 
-.nav-link:hover{ background: #fff; color: #94110d; }
+.nav-link:hover , .active { background: #fff; color: #94110d; }
 
 .navbar-collapse{ justify-content: flex-end;}
 

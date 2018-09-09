@@ -15,3 +15,9 @@ $(".navbar a").click(function(){
   },1000)
   
  })
+
+
+$('li  a').click(function() {
+    $('li   a').removeClass('active');
+    $(this).addClass('active');
+});
